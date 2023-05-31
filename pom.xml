@@ -70,8 +70,9 @@
             <plugin>
               <artifactId>maven-pmd-plugin</artifactId>
             </plugin>
-
-           
+            <plugin>       
+                   <artifactId>maven-war-plugin</artifactId>
+            </plugin>
              
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
@@ -136,9 +137,10 @@
           <version>3.12.1</version>
         </plugin>
 
-        
-
-     
+        <plugin>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>1.0</version>
+        </plugin>
 
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
