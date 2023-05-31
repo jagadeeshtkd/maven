@@ -71,9 +71,7 @@
               <artifactId>maven-pmd-plugin</artifactId>
             </plugin>
 
-            <plugin>
-              <artifactId>maven-surefire-report-plugin</artifactId>
-            </plugin>
+           
              
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
@@ -138,15 +136,9 @@
           <version>3.12.1</version>
         </plugin>
 
-        <plugin>
-          <artifactId>maven-surefire-report-plugin</artifactId>
-          <version>1.4</version>
-        </plugin>
+        
 
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>1.4</version>
-        </plugin>
+     
 
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
